@@ -44,12 +44,13 @@
     transform: rotate(360deg);
   }
 }
+
   </style>
 </head>
 <body>
   <script>
-    const AS_URL_BASE = "https://script.google.com/macros/s/AKfycbyoBYOjjutOFclFj9KdzktQgSliOTTCllVd3JK17c0wGzbqr5qZiqcIAg5p29x9g9kQbA/exec";
-
+    const AS_URL_BASE ="https://script.google.com/macros/s/AKfycbyoBYOjjutOFclFj9KdzktQgSliOTTCllVd3JK17c0wGzbqr5qZiqcIAg5p29x9g9kQbA/exec";
+    
     var url = document.location.href;
     var k = url.substr(url.lastIndexOf("k=")+2);
     
@@ -65,6 +66,7 @@
       })
       .catch(err => console.log(err))
     }
+
   </script>
   
   <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
